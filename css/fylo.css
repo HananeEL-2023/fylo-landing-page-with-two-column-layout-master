@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  padding: 30px 70px;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  color: hsl(243, 87%, 12%);
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.logo {
+  height: 35px;
+}
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  width: 20%;
+}
+.nav-links li a {
+  text-decoration: none;
+}
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.text-header {
+  width: 45%;
+}
+.text-header h1 {
+  line-height: 45px;
+}
+.container-header-img img {
+  height: 350px;
+}
+.form {
+  width: 100%;
+  margin-top: 30px;
+}
+.input-email {
+  width: 50%;
+  padding: 8px;
+}
+.input-submit {
+  background-color: hsl(224, 93%, 58%);
+  border: solid hsl(224, 93%, 58%);
+  padding: 8px 40px;
+  cursor: pointer;
+  border-radius: 3px;
+  color: hsl(240, 75%, 98%);
+}
+.input-email::placeholder {
+  color: hsl(0, 0%, 75%);
+}
