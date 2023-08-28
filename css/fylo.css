@@ -8,6 +8,7 @@ header {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   color: hsl(243, 87%, 12%);
+  max-width: 1440px;
 }
 nav {
   display: flex;
@@ -33,6 +34,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  margin-bottom: 100px;
 }
 .text-header {
   width: 45%;
@@ -53,12 +55,68 @@ nav {
 }
 .input-submit {
   background-color: hsl(224, 93%, 58%);
-  border: solid hsl(224, 93%, 58%);
-  padding: 8px 40px;
+  border: none;
+  padding: 9px 40px;
   cursor: pointer;
   border-radius: 3px;
   color: hsl(240, 75%, 98%);
 }
+.input-submit:hover {
+  background-color: hsla(224, 93%, 58%, 0.8);
+}
 .input-email::placeholder {
   color: hsl(0, 0%, 75%);
+}
+.background-image-section {
+  background-image: url("/images/bg-curve-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100px;
+}
+.section-testimonial {
+  background-color: hsla(240, 75%, 98%, 0.8);
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 40px 60px 75px;
+  color: hsl(243, 87%, 12%);
+}
+.content-testimonial {
+  font-family: "Raleway", sans-serif;
+}
+.content-testimonial a {
+  color: hsl(170, 45%, 43%);
+  font-size: 14px;
+  text-decoration: none;
+  border-bottom: 1px solid hsl(170, 45%, 43%);
+}
+.paragraphs-testimonial {
+  margin: 25px 0px;
+  width: 65%;
+}
+.paragraphs-testimonial p {
+  margin-bottom: 20px;
+}
+.image-testimonial {
+  height: 300px;
+}
+.aside-section {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  font-size: 14px;
+  padding: 30px;
+  margin-top: 25px;
+  width: 40%;
+}
+.aside-section-paragraph {
+  margin: 20px 0px;
+}
+.avatar-name {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.avatar-testimonial {
+  border-radius: 50px;
+  width: 40px;
+  margin-right: 20px;
 }
