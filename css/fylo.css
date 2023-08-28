@@ -82,7 +82,7 @@ nav {
   color: hsl(243, 87%, 12%);
 }
 .content-testimonial {
-  font-family: "Raleway", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 .content-testimonial a {
   color: hsl(170, 45%, 43%);
@@ -119,4 +119,95 @@ nav {
   border-radius: 50px;
   width: 40px;
   margin-right: 20px;
+}
+.small-section {
+  background-color: hsl(238, 22%, 44%);
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  width: 100%;
+}
+.first-section {
+  width: 40%;
+  color: hsl(240, 75%, 98%);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+.second-form {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+.second-form input {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.button-width {
+  width: 40%;
+}
+footer {
+  display: flex;
+  background-color: hsl(243, 87%, 12%);
+  color: hsl(240, 75%, 98%);
+  padding: 100px 40px;
+  align-items: flex-start;
+}
+.logo-footer {
+  filter: brightness(0) invert(1);
+}
+.contact-section {
+  width: 40%;
+}
+.phone-section {
+  display: flex;
+  margin: 20px 0px;
+}
+.phone-section img {
+  margin-right: 20px;
+}
+.email-section {
+  display: flex;
+}
+.email-section img {
+  margin-right: 20px;
+}
+.links-big-section {
+  display: flex;
+  width: 20%;
+  justify-content: space-between;
+}
+.links-section {
+  display: flex;
+  flex-direction: column;
+}
+.links-section a {
+  text-decoration: none;
+  color: hsl(240, 75%, 98%);
+  margin-bottom: 20px;
+}
+.links-section a:hover {
+  color: hsl(238, 22%, 44%);
+}
+.social-media-icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 20%;
+  margin-left: 118px;
+}
+.social-media-icons a {
+  text-decoration: none;
+}
+.facebook-icon,
+.twitter-icon {
+  height: 40px;
+  border: 1px solid hsl(240, 75%, 98%);
+  border-radius: 50px;
+  padding: 8px;
+}
+.instagram-icon {
+  height: 40px;
+  border: 1px solid hsl(240, 75%, 98%);
+  border-radius: 50px;
+  padding: 4px;
 }
