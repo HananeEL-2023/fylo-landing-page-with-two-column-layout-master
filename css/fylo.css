@@ -85,7 +85,7 @@ nav {
 .content-testimonial {
   font-family: "Open Sans", sans-serif;
 }
-.content-testimonial a {
+.link a {
   color: hsl(170, 45%, 43%);
   font-size: 14px;
   text-decoration: none;
@@ -221,4 +221,95 @@ footer {
   display: none;
   color: hsl(240, 75%, 98%);
   font-size: 14px;
+}
+
+@media screen and (max-width: 376px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 25px;
+  }
+  .logo {
+    height: 25px;
+  }
+  .text-header {
+    width: 100%;
+    text-align: center;
+  }
+  .nav-links {
+    width: 58%;
+  }
+  .section-header {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .container-header-img img {
+    height: 238px;
+  }
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  .input-email {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .background-image-section {
+    background-image: url("/images/bg-curve-mobile.svg");
+  }
+  .section-testimonial {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 40px 25px 75px;
+  }
+  .content-testimonial h2 {
+    text-align: center;
+  }
+  .image-testimonial {
+    height: 251px;
+  }
+  .paragraphs-testimonial {
+    width: 100%;
+  }
+  .aside-section {
+    width: 100%;
+  }
+  .link {
+    text-align: center;
+  }
+  .small-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .first-section {
+    text-align: center;
+    width: 100%;
+  }
+  .first-section p {
+    margin: 20px 0px;
+  }
+  .second-form {
+    width: 100%;
+  }
+  .button-width {
+    width: 100%;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 25px;
+  }
+  .contact-section {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .links-big-section {
+    width: 100%;
+    flex-direction: column;
+  }
+  .social-media-icons {
+    width: 80%;
+    margin-left: 0;
+  }
 }
