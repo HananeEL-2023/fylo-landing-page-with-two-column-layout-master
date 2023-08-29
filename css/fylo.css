@@ -217,3 +217,8 @@ footer {
   color: red;
   font-size: 14px;
 }
+#second-error-message {
+  display: none;
+  color: hsl(240, 75%, 98%);
+  font-size: 14px;
+}
