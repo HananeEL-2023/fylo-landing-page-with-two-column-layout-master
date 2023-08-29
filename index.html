@@ -33,9 +33,10 @@
         <p>Fylo stores your most important files in one secure location.
           Access them wherever you need, share and collaborate with friends,
           family, and co-workers.</p>
-        <form action="" class="form">
-          <input type="email" placeholder="Enter your email..." class="input-email">
+        <form action="" class="form" id="first-form">
+          <input type="text" name="email" placeholder="Enter your email..." class="input-email" id="email-field">
           <input type="submit" value="Get started" class="input-submit">
+          <span id="error-email">Please check your email</span>
         </form>
       </div>
       <div class="container-header-img">
@@ -124,6 +125,7 @@
 
     </div>
   </footer>
+  <script src="Js/fylo.js"></script>
 </body>
 
 </html>
